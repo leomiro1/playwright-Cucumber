@@ -1,5 +1,3 @@
-
-![Playwright Test Execution]
     
 # Playwright with CucumberJS
     
@@ -38,8 +36,8 @@ Scenario Outline: Login to the E-Shop Application with Wrong Password
     Then User should not get logged in
 
     Examples:
-      | EmailID                    | Password  |
-      | testuser_negative@shop.com | Testing$1 |
+      | EmailID | Password  |
+      | user    | pass      |
 ```
 ### A sample stepdefinition
 ```Javascript
