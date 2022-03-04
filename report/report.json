@@ -14,282 +14,6 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 77000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "User launched eshop login page",
-            "match": {
-              "location": "features/support/steps.js:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 846000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "User logged in eshop using the valid emailid \"standard_user\" and the valid password \"secret_sauce\"",
-            "match": {
-              "location": "features/support/steps.js:21"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 336000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "User clicks on the \"Sauce Labs Bolt T-Shirt\" link",
-            "match": {
-              "location": "features/support/steps.js:37"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 741000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "User adds product to the cart",
-            "match": {
-              "location": "features/support/steps.js:41"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 194000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "User should be able to see the listed product \"Sauce Labs Bolt T-Shirt\" on the cart",
-            "match": {
-              "location": "features/support/steps.js:46"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 364000000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 11000000
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "add-product;add-product-to-cart",
-        "keyword": "Scenario Outline",
-        "line": 4,
-        "name": "Add Product to Cart",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 84000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "User launched eshop login page",
-            "match": {
-              "location": "features/support/steps.js:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 381000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "User logged in eshop using the valid emailid \"standard_user\" and the valid password \"secret_sauce\"",
-            "match": {
-              "location": "features/support/steps.js:21"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 508000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "User clicks on the \"Sauce Labs Onesie\" link",
-            "match": {
-              "location": "features/support/steps.js:37"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 627000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "User adds product to the cart",
-            "match": {
-              "location": "features/support/steps.js:41"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 226000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "User should be able to see the listed product \"Sauce Labs Onesie\" on the cart",
-            "match": {
-              "location": "features/support/steps.js:46"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 376000000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 3000000
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "add-product;add-product-to-cart",
-        "keyword": "Scenario Outline",
-        "line": 4,
-        "name": "Add Product to Cart",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 92000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "User launched eshop login page",
-            "match": {
-              "location": "features/support/steps.js:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 408000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "User logged in eshop using the valid emailid \"standard_user\" and the valid password \"secret_sauce\"",
-            "match": {
-              "location": "features/support/steps.js:21"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 422000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "User clicks on the \"Test.allTheThings() T-Shirt (Red)\" link",
-            "match": {
-              "location": "features/support/steps.js:37"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 746000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "User adds product to the cart",
-            "match": {
-              "location": "features/support/steps.js:41"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 223000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "User should be able to see the listed product \"Test.allTheThings() T-Shirt (Red)\" on the cart",
-            "match": {
-              "location": "features/support/steps.js:46"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 400000000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 4000000
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "add-product;add-product-to-cart",
-        "keyword": "Scenario Outline",
-        "line": 4,
-        "name": "Add Product to Cart",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
               "duration": 87000000
             }
           },
@@ -303,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 381000000
+              "duration": 413000000
             }
           },
           {
@@ -316,20 +40,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 474000000
+              "duration": 527000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 7,
-            "name": "User clicks on the \"Sauce Labs Fleece Jacket\" link",
+            "name": "User clicks on the \"Sauce Labs Bolt T-Shirt\" link",
             "match": {
               "location": "features/support/steps.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 642000000
+              "duration": 723000000
             }
           },
           {
@@ -342,20 +66,112 @@
             },
             "result": {
               "status": "passed",
-              "duration": 253000000
+              "duration": 272000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 9,
-            "name": "User should be able to see the listed product \"Sauce Labs Fleece Jacket\" on the cart",
+            "name": "User should be able to see the listed product \"Sauce Labs Bolt T-Shirt\" on the cart",
             "match": {
               "location": "features/support/steps.js:46"
             },
             "result": {
               "status": "passed",
-              "duration": 407000000
+              "duration": 385000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-product;add-product-to-cart",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "Add Product to Cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 85000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User launched eshop login page",
+            "match": {
+              "location": "features/support/steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 353000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User logged in eshop using the valid emailid \"standard_user\" and the valid password \"secret_sauce\"",
+            "match": {
+              "location": "features/support/steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 435000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User clicks on the \"Sauce Labs Onesie\" link",
+            "match": {
+              "location": "features/support/steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 711000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User adds product to the cart",
+            "match": {
+              "location": "features/support/steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 244000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User should be able to see the listed product \"Sauce Labs Onesie\" on the cart",
+            "match": {
+              "location": "features/support/steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 355000000
             }
           },
           {
@@ -382,7 +198,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 80000000
+              "duration": 93000000
             }
           },
           {
@@ -395,7 +211,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 407000000
+              "duration": 386000000
             }
           },
           {
@@ -408,20 +224,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 480000000
+              "duration": 470000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 7,
-            "name": "User clicks on the \"Sauce Labs Bike Light\" link",
+            "name": "User clicks on the \"Test.allTheThings() T-Shirt (Red)\" link",
             "match": {
               "location": "features/support/steps.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 787000000
+              "duration": 741000000
             }
           },
           {
@@ -434,20 +250,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 249000000
+              "duration": 231000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 9,
-            "name": "User should be able to see the listed product \"Sauce Labs Bike Light\" on the cart",
+            "name": "User should be able to see the listed product \"Test.allTheThings() T-Shirt (Red)\" on the cart",
             "match": {
               "location": "features/support/steps.js:46"
             },
             "result": {
               "status": "passed",
-              "duration": 356000000
+              "duration": 391000000
             }
           },
           {
@@ -474,7 +290,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 78000000
+              "duration": 101000000
             }
           },
           {
@@ -487,7 +303,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 429000000
+              "duration": 394000000
             }
           },
           {
@@ -500,20 +316,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 439000000
+              "duration": 379000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 7,
-            "name": "User clicks on the \"Sauce Labs Backpack\" link",
+            "name": "User clicks on the \"Sauce Labs Fleece Jacket\" link",
             "match": {
               "location": "features/support/steps.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 1093000000
+              "duration": 662000000
             }
           },
           {
@@ -526,7 +342,191 @@
             },
             "result": {
               "status": "passed",
-              "duration": 353000000
+              "duration": 252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User should be able to see the listed product \"Sauce Labs Fleece Jacket\" on the cart",
+            "match": {
+              "location": "features/support/steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 397000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-product;add-product-to-cart",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "Add Product to Cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 102000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User launched eshop login page",
+            "match": {
+              "location": "features/support/steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 424000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User logged in eshop using the valid emailid \"standard_user\" and the valid password \"secret_sauce\"",
+            "match": {
+              "location": "features/support/steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 513000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User clicks on the \"Sauce Labs Bike Light\" link",
+            "match": {
+              "location": "features/support/steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1237000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User adds product to the cart",
+            "match": {
+              "location": "features/support/steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 312000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User should be able to see the listed product \"Sauce Labs Bike Light\" on the cart",
+            "match": {
+              "location": "features/support/steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 469000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-product;add-product-to-cart",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "Add Product to Cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 82000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User launched eshop login page",
+            "match": {
+              "location": "features/support/steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 450000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User logged in eshop using the valid emailid \"standard_user\" and the valid password \"secret_sauce\"",
+            "match": {
+              "location": "features/support/steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 826000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User clicks on the \"Sauce Labs Backpack\" link",
+            "match": {
+              "location": "features/support/steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 808000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User adds product to the cart",
+            "match": {
+              "location": "features/support/steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 291000000
             }
           },
           {
@@ -539,7 +539,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 443000000
+              "duration": 409000000
             }
           },
           {
@@ -547,7 +547,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 5000000
             }
           }
         ],
@@ -577,7 +577,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 93000000
+              "duration": 165000000
             }
           },
           {
@@ -590,7 +590,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 417000000
+              "duration": 392000000
             }
           },
           {
@@ -603,7 +603,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 695000000
+              "duration": 486000000
             }
           },
           {
@@ -616,7 +616,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 563000000
+              "duration": 40000000
             }
           },
           {
@@ -624,7 +624,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 25000000
             }
           }
         ],
@@ -643,7 +643,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 67000000
+              "duration": 208000000
             }
           },
           {
@@ -656,7 +656,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 371000000
+              "duration": 402000000
             }
           },
           {
@@ -669,7 +669,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 362000000
+              "duration": 408000000
             }
           },
           {
@@ -682,7 +682,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 70000000
+              "duration": 27000000
             }
           },
           {
@@ -690,7 +690,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 15000000
+              "duration": 12000000
             }
           }
         ],
@@ -709,7 +709,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 149000000
+              "duration": 161000000
             }
           },
           {
@@ -722,7 +722,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 635000000
+              "duration": 683000000
             }
           },
           {
@@ -735,7 +735,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 199000000
+              "duration": 249000000
             }
           },
           {
@@ -748,7 +748,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 62000000
+              "duration": 67000000
             }
           },
           {
@@ -756,7 +756,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 17000000
             }
           }
         ],
@@ -775,7 +775,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 92000000
+              "duration": 135000000
             }
           },
           {
@@ -788,7 +788,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 630000000
+              "duration": 443000000
             }
           },
           {
@@ -801,7 +801,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 214000000
+              "duration": 238000000
             }
           },
           {
@@ -814,7 +814,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 68000000
+              "duration": 56000000
             }
           },
           {
@@ -822,7 +822,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 15000000
+              "duration": 11000000
             }
           }
         ],
