@@ -11,13 +11,13 @@ class LoginPage {
         await page.click('#login-button');
     }
     async loginFailed(){
-        await page.waitForSelector('#login_button_container > div > form > div.error-message-container.error');
-        let error = await page.$eval('#login_button_container > div > form > div.error-message-container.error', (errortext) => errortext.textContent);
+        await page.waitForSelector('.error-message-container.error');
+        let error = await page.$eval('.error-message-container.error', (errortext) => errortext.textContent);
         expect (error).to.include("Epic sadface: Username and password do not match any user in this service")
     }
     async lockedUser(){
-        await page.waitForSelector('#login_button_container > div > form > div.error-message-container.error');
-        let error = await page.$eval('#login_button_container > div > form > div.error-message-container.error', (errortext) => errortext.textContent);
+        await page.waitForSelector('.error-message-container.error');
+        let error = await page.$eval('.error-message-container.error', (errortext) => errortext.textContent);
         expect (error).to.include("Epic sadface: Sorry, this user has been locked out.")
     }
     async loginSuccessful(){ 

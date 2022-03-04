@@ -3,7 +3,7 @@ const { chromium } = require('playwright');
 
 // Create a global browser for the test session.
 BeforeAll(async() =>{
-    global.browser = await chromium.launch({headless:false, slowMo:100});
+    global.browser = await chromium.launch(); //({headless:false, slowMo:100});
 });
 
 AfterAll(async() => {
@@ -19,5 +19,4 @@ Before(async(scenario) =>{
 
 After(async() => {
     await global.page.close();
-    //global.context.close();
 });

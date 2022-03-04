@@ -23,7 +23,6 @@ Feature: Login
     Given User launched eshop login page
     When User logged in eshop using the invalid emailid "<EmailID>" and the invalid password "<Password>"
     Then User should not get logged in
-
     Examples:
       | EmailID       | Password  |
       | standard_user | Testing$1 |
