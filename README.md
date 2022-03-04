@@ -1,4 +1,4 @@
-![Node.js test runner CI]    
+![Node.js test runner CI](https://github.com/leomiro1/Playwright-Cucumber/workflows/Node.js%20test%20runner%20CI/badge.svg)
 
 # Playwright with CucumberJS
     
