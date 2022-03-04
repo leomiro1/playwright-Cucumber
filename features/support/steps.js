@@ -1,8 +1,14 @@
 const {Given, When, Then} = require ('@cucumber/cucumber')
+
 const {LoginPage} = require('../../page_object/login.page')
+const {HomePage} = require('../../page_object/home.page')
+const {ProductPage} = require('../../page_object/product.page')
+const {CartPage} = require('../../page_object/cart.page')
 
 const loginpage = new LoginPage();
-
+const homepage = new HomePage();
+const productpage = new ProductPage();
+const cartpage = new CartPage();
 
 Given('User launched eshop login page', async()=>{
     await loginpage.navigate();
@@ -28,3 +34,16 @@ Then('user should see a shop home page', async()=>{
     await loginpage.loginSuccessful();
 });
 
+When('User clicks on the {string} link', async (product) =>{
+    await homepage.showProductDetail(product);
+});
+
+When('User adds product to the cart', async()=>{
+    await productpage.addProductToCart();
+    await productpage.returnToHome();
+});
+
+Then('User should be able to see the listed product {string} on the cart', async (product) =>{
+    await homepage.goToCart();
+    await cartpage.checkProduct(product);
+});

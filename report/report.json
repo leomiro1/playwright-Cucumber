@@ -4,6 +4,569 @@
     "elements": [
       {
         "description": "",
+        "id": "add-product;add-product-to-cart",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "Add Product to Cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 77000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User launched eshop login page",
+            "match": {
+              "location": "features/support/steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 846000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User logged in eshop using the valid emailid \"standard_user\" and the valid password \"secret_sauce\"",
+            "match": {
+              "location": "features/support/steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 336000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User clicks on the \"Sauce Labs Bolt T-Shirt\" link",
+            "match": {
+              "location": "features/support/steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 741000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User adds product to the cart",
+            "match": {
+              "location": "features/support/steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 194000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User should be able to see the listed product \"Sauce Labs Bolt T-Shirt\" on the cart",
+            "match": {
+              "location": "features/support/steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 364000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-product;add-product-to-cart",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "Add Product to Cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 84000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User launched eshop login page",
+            "match": {
+              "location": "features/support/steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 381000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User logged in eshop using the valid emailid \"standard_user\" and the valid password \"secret_sauce\"",
+            "match": {
+              "location": "features/support/steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 508000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User clicks on the \"Sauce Labs Onesie\" link",
+            "match": {
+              "location": "features/support/steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 627000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User adds product to the cart",
+            "match": {
+              "location": "features/support/steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 226000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User should be able to see the listed product \"Sauce Labs Onesie\" on the cart",
+            "match": {
+              "location": "features/support/steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 376000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-product;add-product-to-cart",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "Add Product to Cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User launched eshop login page",
+            "match": {
+              "location": "features/support/steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 408000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User logged in eshop using the valid emailid \"standard_user\" and the valid password \"secret_sauce\"",
+            "match": {
+              "location": "features/support/steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 422000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User clicks on the \"Test.allTheThings() T-Shirt (Red)\" link",
+            "match": {
+              "location": "features/support/steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 746000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User adds product to the cart",
+            "match": {
+              "location": "features/support/steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 223000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User should be able to see the listed product \"Test.allTheThings() T-Shirt (Red)\" on the cart",
+            "match": {
+              "location": "features/support/steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 400000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-product;add-product-to-cart",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "Add Product to Cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 87000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User launched eshop login page",
+            "match": {
+              "location": "features/support/steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 381000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User logged in eshop using the valid emailid \"standard_user\" and the valid password \"secret_sauce\"",
+            "match": {
+              "location": "features/support/steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 474000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User clicks on the \"Sauce Labs Fleece Jacket\" link",
+            "match": {
+              "location": "features/support/steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 642000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User adds product to the cart",
+            "match": {
+              "location": "features/support/steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 253000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User should be able to see the listed product \"Sauce Labs Fleece Jacket\" on the cart",
+            "match": {
+              "location": "features/support/steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 407000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-product;add-product-to-cart",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "Add Product to Cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 80000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User launched eshop login page",
+            "match": {
+              "location": "features/support/steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 407000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User logged in eshop using the valid emailid \"standard_user\" and the valid password \"secret_sauce\"",
+            "match": {
+              "location": "features/support/steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 480000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User clicks on the \"Sauce Labs Bike Light\" link",
+            "match": {
+              "location": "features/support/steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 787000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User adds product to the cart",
+            "match": {
+              "location": "features/support/steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 249000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User should be able to see the listed product \"Sauce Labs Bike Light\" on the cart",
+            "match": {
+              "location": "features/support/steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 356000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-product;add-product-to-cart",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "Add Product to Cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 78000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User launched eshop login page",
+            "match": {
+              "location": "features/support/steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 429000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User logged in eshop using the valid emailid \"standard_user\" and the valid password \"secret_sauce\"",
+            "match": {
+              "location": "features/support/steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 439000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User clicks on the \"Sauce Labs Backpack\" link",
+            "match": {
+              "location": "features/support/steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1093000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User adds product to the cart",
+            "match": {
+              "location": "features/support/steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 353000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User should be able to see the listed product \"Sauce Labs Backpack\" on the cart",
+            "match": {
+              "location": "features/support/steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 443000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-product",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Add-Product",
+    "tags": [],
+    "uri": "features/addProduct.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
         "id": "login;login-to-the-e-shop-application",
         "keyword": "Scenario Outline",
         "line": 3,
@@ -14,7 +577,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 879000000
+              "duration": 93000000
             }
           },
           {
@@ -23,11 +586,11 @@
             "line": 4,
             "name": "User launched eshop login page",
             "match": {
-              "location": "features/support/steps.js:7"
+              "location": "features/support/steps.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 1061000000
+              "duration": 417000000
             }
           },
           {
@@ -36,11 +599,11 @@
             "line": 5,
             "name": "User logged in eshop using the valid emailid \"standard_user\" and the valid password \"secret_sauce\"",
             "match": {
-              "location": "features/support/steps.js:15"
+              "location": "features/support/steps.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 1281000000
+              "duration": 695000000
             }
           },
           {
@@ -49,11 +612,11 @@
             "line": 6,
             "name": "user should see a shop home page",
             "match": {
-              "location": "features/support/steps.js:27"
+              "location": "features/support/steps.js:33"
             },
             "result": {
               "status": "passed",
-              "duration": 299000000
+              "duration": 563000000
             }
           },
           {
@@ -61,7 +624,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 19000000
+              "duration": 11000000
             }
           }
         ],
@@ -80,7 +643,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 246000000
+              "duration": 67000000
             }
           },
           {
@@ -89,11 +652,11 @@
             "line": 4,
             "name": "User launched eshop login page",
             "match": {
-              "location": "features/support/steps.js:7"
+              "location": "features/support/steps.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 604000000
+              "duration": 371000000
             }
           },
           {
@@ -102,11 +665,11 @@
             "line": 5,
             "name": "User logged in eshop using the valid emailid \"problem_user\" and the valid password \"secret_sauce\"",
             "match": {
-              "location": "features/support/steps.js:15"
+              "location": "features/support/steps.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 734000000
+              "duration": 362000000
             }
           },
           {
@@ -115,11 +678,11 @@
             "line": 6,
             "name": "user should see a shop home page",
             "match": {
-              "location": "features/support/steps.js:27"
+              "location": "features/support/steps.js:33"
             },
             "result": {
               "status": "passed",
-              "duration": 29000000
+              "duration": 70000000
             }
           },
           {
@@ -127,7 +690,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 15000000
             }
           }
         ],
@@ -146,7 +709,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 246000000
+              "duration": 149000000
             }
           },
           {
@@ -155,11 +718,11 @@
             "line": 14,
             "name": "User launched eshop login page",
             "match": {
-              "location": "features/support/steps.js:7"
+              "location": "features/support/steps.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 531000000
+              "duration": 635000000
             }
           },
           {
@@ -168,11 +731,11 @@
             "line": 15,
             "name": "User logged in eshop using the valid emailid \"locked_out_user\" and the valid password \"secret_sauce\"",
             "match": {
-              "location": "features/support/steps.js:15"
+              "location": "features/support/steps.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 611000000
+              "duration": 199000000
             }
           },
           {
@@ -181,11 +744,11 @@
             "line": 16,
             "name": "User should see a message of locked user",
             "match": {
-              "location": "features/support/steps.js:19"
+              "location": "features/support/steps.js:25"
             },
             "result": {
               "status": "passed",
-              "duration": 200000000
+              "duration": 62000000
             }
           },
           {
@@ -193,7 +756,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 8000000
             }
           }
         ],
@@ -212,7 +775,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 232000000
+              "duration": 92000000
             }
           },
           {
@@ -221,11 +784,11 @@
             "line": 23,
             "name": "User launched eshop login page",
             "match": {
-              "location": "features/support/steps.js:7"
+              "location": "features/support/steps.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 583000000
+              "duration": 630000000
             }
           },
           {
@@ -234,11 +797,11 @@
             "line": 24,
             "name": "User logged in eshop using the invalid emailid \"standard_user\" and the invalid password \"Testing$1\"",
             "match": {
-              "location": "features/support/steps.js:11"
+              "location": "features/support/steps.js:17"
             },
             "result": {
               "status": "passed",
-              "duration": 559000000
+              "duration": 214000000
             }
           },
           {
@@ -247,11 +810,11 @@
             "line": 25,
             "name": "User should not get logged in",
             "match": {
-              "location": "features/support/steps.js:23"
+              "location": "features/support/steps.js:29"
             },
             "result": {
               "status": "passed",
-              "duration": 197000000
+              "duration": 68000000
             }
           },
           {
@@ -259,7 +822,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 17000000
+              "duration": 15000000
             }
           }
         ],

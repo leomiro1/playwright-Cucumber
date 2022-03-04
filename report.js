@@ -6,6 +6,6 @@ const options ={
      output:'report/cucumber-html-report.html',
      overwrite: true,
      reportSuiteAsScenaros:true,
-     launchReport:true,
+     launchReport:false,
 }
 reporter.generate(options)

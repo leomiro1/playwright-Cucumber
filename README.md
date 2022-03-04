@@ -1,7 +1,8 @@
-    
+![Node.js test runner CI]    
+
 # Playwright with CucumberJS
     
-Playwright end-to-end test automation with CucumberJS
+Playwright end-to-end test automation with CucumberJS (based on https://github.com/ghoshasish99/Playwright-Cucumber)
     
 ## Getting Started
 
